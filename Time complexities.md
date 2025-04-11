@@ -1,5 +1,30 @@
+# Time Complexities and Pioneers!!!
 ## Pre Midterm Time Complexities
-Coming soon...
+
+| **Algorithm**                     | **Time Complexity**          | **Extra Details/Notes**                                                                                                                           |
+| --------------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| MergeSort                         | O(n log n)                   |                                                                                                                                                   |
+| QuickSort                         | O(n<sup>2</sup>)             | Worst case. Ex. if the pivot is the last element and the list is already sorted                                                                   |
+| QuickSort<sup>*</sup>             | O(n log n)                   | <sup>*</sup>Expected running time if the pivot is random                                                                                          |
+| HeapSort                          | O(n log n)                   |                                                                                                                                                   |
+| BubbleSort                        | O(n<sup>2</sup>)             |                                                                                                                                                   |
+| SelectionSort                     | O(n<sup>2</sup>)             |                                                                                                                                                   |
+| BucketSort                        | O(n + N)                     |                                                                                                                                                   |
+| CountingSort                      | O(n + N)<sup>*</sup>         | <sup>*</sup>If N = O(n) then it runs in O(n) time.                                                                                                |
+| RadixSort                         | O(d(n + N))<sup>*</sup>      | <sup>*</sup>If d is a constant, and the number of characters N is a constant, then the algorithm runs in O(n) time                                |
+| RandomizedQuickSelect             | O(n<sup>2</sup>)             | Worst case                                                                                                                                        |
+| RandomizedQuickSelect<sup>*</sup> | O(n)                         | <sup>*</sup>Expected case                                                                                                                         |
+| DeterministicSelect               | O(n)                         |                                                                                                                                                   |
+| PruneMedian                       | O(n)                         |                                                                                                                                                   |
+| 01KnapSack Brute Force            | Exponential time<sup>*</sup> | <sup>*</sup>A brute force method is to try all 2<sup>n</sup> subsets of items, then pick the one with largest benefit and total weight at most C. |
+| FractionalKnapSack                | O(n log n)                   |                                                                                                                                                   |
+| Task Scheduling                   | O(n<sup>2</sup>)             |                                                                                                                                                   |
+| Task Scheduling<sup>*</sup>       | O(n log n)                   | <sup>*</sup>Min-Heap implementation                                                                                                               |
+| Huffman Coding                    | O(n + dlogd)<sup>*</sup>     | <sup>*</sup>String of length n with d distinct characters                                                                                         |
+| Fuel Stop                         | O(n)                         |                                                                                                                                                   |
+| Strassens Algorithm               | O(n<sup>log7</sup>)          |                                                                                                                                                   |
+| Fastest Matrix Multiplication     | O(n<sup>2.376</sup>)         |                                                                                                                                                   |
+
 ## Post Midterm Time Complexities
 
 | **Algorithm**                          | **Time Complexity**          | Extra Details/Notes                                                                                         |
@@ -8,7 +33,7 @@ Coming soon...
 | Bottom-Up Pascals Identity             | O(nk)                        |                                                                                                             |
 | Top-Down Pascals Identity              | O(nk)                        |                                                                                                             |
 | Longest Common Subsequence             | O(nm)                        | Implements dynamic programming                                                                              |
-| Matrix-Product Brute Force             | Exponential Time<sup>*</sup> | <sup>*</sup>Considers all Ω(4<sup>n</sup>/n<sup>3/2</sup>) possible parenthesizations (the Catalan  <br>numbers)      |
+| Matrix-Product Brute Force             | Exponential Time<sup>*</sup> | <sup>*</sup>Considers all Ω(4$^n$/n$^3$$^/$$^2$) possible parenthesizations (the Catalan  <br>numbers)      |
 | Matrix Chain Multiplication            | O(n<sup>3</sup>)             | Implements dynamic programming                                                                              |
 | Breadth First Search (BFS)             | O(m + n)                     |                                                                                                             |
 | Depth First Search (DFS)               | O(m + n)                     |                                                                                                             |
