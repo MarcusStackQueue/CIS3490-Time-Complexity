@@ -27,7 +27,7 @@
 | Push-relabel algorithms                | O(n<sup>2</sup>m)            |                                                                                                 |
 | Brute Force Pattern Matching           | O(nm)                |                                                                                                 |
 | Boyer-Moore Algorithm                  | O(mn + \|Σ\|)        | Requires \|Σ\| time to calculate the *last* function                                            |
-| Booyer-Moore Algorithm$^*$             | O(m + n + \|Σ\|)     | Considers a more sophisticated heuristic to skip characters based on the longest matched suffix |
+| Booyer-Moore Algorithm<sup>*</sup>             | O(m + n + \|Σ\|)     | <sup>*</sup>Considers a more sophisticated heuristic to skip characters based on the longest matched suffix |
 | Knuth-Morris-Pratt (KMP)               | O(n + m)             |                                                                                                 |
 
 ## Pioneer Section Coming Soon
