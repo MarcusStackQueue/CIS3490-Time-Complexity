@@ -8,7 +8,7 @@ Coming soon...
 | Bottom-Up Pascals Identity             | O(nk)                        |                                                                                                             |
 | Top-Down Pascals Identity              | O(nk)                        |                                                                                                             |
 | Longest Common Subsequence             | O(nm)                        | Implements dynamic programming                                                                              |
-| Matrix-Product Brute Force             | Exponential Time<sup>*</sup> | <sup>*</sup>Considers all Ω(4$^n$/n$^3$$^/$$^2$) possible parenthesizations (the Catalan  <br>numbers)      |
+| Matrix-Product Brute Force             | Exponential Time<sup>*</sup> | <sup>*</sup>Considers all Ω(4<sup>n</sup>/n<sup>3/2</sup>) possible parenthesizations (the Catalan  <br>numbers)      |
 | Matrix Chain Multiplication            | O(n<sup>3</sup>)             | Implements dynamic programming                                                                              |
 | Breadth First Search (BFS)             | O(m + n)                     |                                                                                                             |
 | Depth First Search (DFS)               | O(m + n)                     |                                                                                                             |
