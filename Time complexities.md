@@ -3,15 +3,15 @@
 
 | **Algorithm**                     | **Time Complexity**          | **Extra Details/Notes**                                                                                                                           |
 | --------------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| MergeSort                         | O(n log n)                   |                                                                                                                                                   |
+| MergeSort                         | O(n log n)                   | This algorithm is stable.                                                                                                                         |
 | QuickSort                         | O(n<sup>2</sup>)             | Worst case. Ex. if the pivot is the last element and the list is already sorted                                                                   |
 | QuickSort<sup>*</sup>             | O(n log n)                   | <sup>*</sup>Expected running time if the pivot is random                                                                                          |
 | HeapSort                          | O(n log n)                   |                                                                                                                                                   |
 | BubbleSort                        | O(n<sup>2</sup>)             |                                                                                                                                                   |
 | SelectionSort                     | O(n<sup>2</sup>)             |                                                                                                                                                   |
-| BucketSort                        | O(n + N)                     |                                                                                                                                                   |
+| BucketSort                        | O(n + N)                     | This algorithm is stable.                                                                                                                         |
 | CountingSort                      | O(n + N)<sup>*</sup>         | <sup>*</sup>If N = O(n) then it runs in O(n) time.                                                                                                |
-| RadixSort                         | O(d(n + N))<sup>*</sup>      | <sup>*</sup>If d is a constant, and the number of characters N is a constant, then the algorithm runs in O(n) time                                |
+| RadixSort                         | O(d(n + N))<sup>*</sup>      | <sup>*</sup>If d is a constant, and the number of characters N is a constant, then thealgorithm runs in O(n) time. This algorithm is stable.                                |
 | RandomizedQuickSelect             | O(n<sup>2</sup>)             | Worst case                                                                                                                                        |
 | RandomizedQuickSelect<sup>*</sup> | O(n)                         | <sup>*</sup>Expected case                                                                                                                         |
 | DeterministicSelect               | O(n)                         |                                                                                                                                                   |
