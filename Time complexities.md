@@ -47,7 +47,7 @@
 | Dijkstra’s Algorithm<sup>***</sup>     | O(n<sup>3</sup>)             | <sup>***</sup>All sources, all destinations, dense graph                                                    |
 | Dijkstra’s Algorithm<sup>****</sup>    | O(n<sup>2</sup> log n )      | <sup>****</sup>All sources, all destinations, sparse graph                                                  |
 | Transitive Closure Algorithm           | O(n<sup>3</sup>)             | Floyd-Warshall implementation                                                                               |
-| Transitive Closure Algorithm$^*$       | O(n(n + m))                  | $^*$DFS Implementation                                                                                      |
+| Transitive Closure Algorithm<sup>*</sup>       | O(n(n + m))                  | <sup>*</sup>DFS Implementation                                                                                      |
 | Kruskal's Algorithm                    | O(m log n)                   |                                                                                                             |
 | Prim-Jarnik’s Algorithm                | O(m log n)                   |                                                                                                             |
 | Ford-Fulkerson Algorithm               | O(m*f*<sup>*</sup>)          | f<sup>*</sup> is the value of the maximum flow                                                              |
