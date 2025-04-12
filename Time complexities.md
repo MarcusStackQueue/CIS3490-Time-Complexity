@@ -26,6 +26,7 @@
 | Fastest Matrix Multiplication     | O(n<sup>2.376</sup>)         |                                                                                                                                                   |
 
 ## Post Midterm Time Complexities
+<sup><sub>If someone is reading this, there is a handful of cases for Djikstras that aren't listed here. I only really put the ones from lecture...</sub></sup>
 
 | **Algorithm**                          | **Time Complexity**          | Extra Details/Notes                                                                                         |
 | -------------------------------------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------- |
